@@ -55,7 +55,7 @@ volKDBG=${addrKDBG%L}
 
 # set array of plugins to be run
 
-declare -a plugins=("malfind", "connscan", "pslist", "netscan", "dlllist", "getsids", "userassist")
+declare -a plugins=("malfind" "connscan" "pslist" "netscan" "dlllist" "getsids" "userassist")
 
 # run all plugins listed in the plugins array and send results to graylogs
 
