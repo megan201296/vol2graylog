@@ -17,4 +17,15 @@ vol2graylog -d /path/to/output/directory -i /path/to/image -g 192.168.1.250 -p 1
 - `-p`: Port of listening HTTP Gelf Input in Graylog
 - `-v`: Name of the host of mem image (to be assigned as `source` in Graylog)
 
-To be continued...
+## Currently Supported Volatility Commands
+The following are the plugins currently supported:
+
+- malfind
+- connscan
+- pslist
+- netscan 
+- dlllist
+- getsids
+- userassist
+
+I am currently working on testing and adding more. All plugins are included in the `vol2graylog.sh` script by default. I plan to add instructions on how to add plugins both to the program as a whole and how to adjust the script to run only plugins you are interested in.
