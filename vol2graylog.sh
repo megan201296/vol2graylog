@@ -9,7 +9,6 @@
 #                                       |___/         |___/   #
 ###############################################################
 
-
 # get command line options 
 
 while getopts d:i:g:v:p: var; do
@@ -56,7 +55,7 @@ volKDBG=${addrKDBG%L}
 
 # set array of plugins to be run
 
-declare -a plugins=("pslist" "dlllist" "getsids")
+declare -a plugins=("connscan")
 
 # run all plugins listed in the plugins array and send results to graylogs
 
