@@ -27,5 +27,11 @@ The following are the plugins currently supported:
 - dlllist
 - getsids
 - userassist
+- psscan
+- ldrmodules
+- psxview
+- modscan
+- apihooks
+- svcscan
 
 I am currently working on testing and adding more. All plugins are included in the `vol2graylog.sh` script by default. I plan to add instructions on how to add plugins both to the program as a whole and how to adjust the script to run only plugins you are interested in.
